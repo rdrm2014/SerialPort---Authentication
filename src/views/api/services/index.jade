@@ -1,0 +1,28 @@
+extends ../../layout-home
+
+block content
+  .container
+    .row
+      .col-md-12
+        ol.breadcrumb
+          li
+            a(href="/home") Home
+          li.active Services
+        a(href="/api/services/addservice")
+          button.btn.btn-default.btn-lg
+            | Add Services
+    .row
+      .col-md-12
+        each service in services
+          .row
+            form(action="/api/oauth/token" method="post" id="service#{service.name}")
+              .col-md-2
+                p -> #{service.name}
+              .col-md-9
+                if service.scopes
+                  input(type="hidden" name="serviceId" value=service._id)
+                  .btn-group(data-toggle='buttons')
+                    each scope in service.scopes
+                      label.btn.btn-primary.disabled
+                        input(type='checkbox', autocomplete='off', name='scope' value=scope)
+                        | #{scope}

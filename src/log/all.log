@@ -1,0 +1,260 @@
+{"level":"info","message":"Connected to DB!","timestamp":"2015-11-27T12:26:16.831Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-11-27T12:30:51.205Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-11-27T12:30:51.233Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T10:08:53.045Z"}
+{"level":"error","message":"Connection error: connect ECONNREFUSED","timestamp":"2015-12-02T10:08:53.067Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T10:09:41.565Z"}
+{"level":"error","message":"Connection error MongoDB: connect ECONNREFUSED","timestamp":"2015-12-02T10:09:41.580Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T10:09:52.017Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T10:09:52.048Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T10:18:10.063Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T10:18:10.091Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T10:18:50.482Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T10:18:50.512Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T10:20:42.115Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T10:20:42.146Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T10:27:55.135Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T10:27:55.182Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T10:34:05.889Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T10:34:05.921Z"}
+{"level":"error","message":"GET 500 /Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views/api/services/index.jade:1\n  > 1| extends ../layout-home\n    2| \n    3| block content\n    4|   p User: #{user.local.username }\n\nENOENT, no such file or directory '/Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views/api/layout-home.jade'","timestamp":"2015-12-02T10:36:20.903Z"}
+{"level":"error","message":"GET 500 /Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views/api/services/addservice.jade:1\n  > 1| extends ../layout-home\n    2| block content\n    3| \t.container\n    4| \t\tform(action=\"/api/services/addservice\" method=\"post\")\n\nENOENT, no such file or directory '/Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views/api/layout-home.jade'","timestamp":"2015-12-02T10:38:37.940Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T10:42:27.919Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T10:42:27.951Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T10:43:34.318Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T10:43:34.350Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T10:52:45.801Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T10:52:45.830Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T11:03:21.640Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T11:03:21.670Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T11:41:09.685Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T11:41:09.717Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T11:43:29.331Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T11:43:29.360Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T11:52:20.904Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T11:52:20.933Z"}
+{"name":"ValidationError","errors":{"serviceId":{"properties":{"type":"required","message":"Path `{PATH}` is required.","path":"serviceId"},"message":"Path `serviceId` is required.","name":"ValidatorError","kind":"required","path":"serviceId"}},"level":"error","timestamp":"2015-12-02T12:29:09.110Z"}
+{"level":"error","message":"POST 500 AccessToken validation failed","timestamp":"2015-12-02T12:29:09.112Z"}
+{"name":"ValidationError","errors":{"serviceId":{"properties":{"type":"required","message":"Path `{PATH}` is required.","path":"serviceId"},"message":"Path `serviceId` is required.","name":"ValidatorError","kind":"required","path":"serviceId"}},"level":"error","timestamp":"2015-12-02T12:30:28.963Z"}
+{"level":"error","message":"POST 500 AccessToken validation failed","timestamp":"2015-12-02T12:30:28.964Z"}
+{"name":"ValidationError","errors":{"serviceId":{"properties":{"type":"required","message":"Path `{PATH}` is required.","path":"serviceId"},"message":"Path `serviceId` is required.","name":"ValidatorError","kind":"required","path":"serviceId"}},"level":"error","timestamp":"2015-12-02T12:31:29.397Z"}
+{"level":"error","message":"POST 500 AccessToken validation failed","timestamp":"2015-12-02T12:31:29.399Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T12:36:52.074Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T12:36:52.105Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T13:58:08.171Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T13:58:08.202Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T15:01:54.458Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T15:01:54.486Z"}
+{"level":"error","message":"GET 500 /Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views/api/services/testservice.jade:13\n    11| \t\t\thttp POST http://localhost:8080/api/oauth/token grant_type=password client_id=XX  client_secret=XX username=teste@teste.pt password=teste\n    12| \n  > 13| \t\t\tinput(type=\"text\" class=\"form-control\" name=\"grant_type\") password\n    14| \t\t\tinput(type=\"text\" class=\"form-control\" name=\"client_id\") XX\n    15| \t\t\tinput(type=\"text\" class=\"form-control\" name=\"client_secret\") XX\n    16| \t\t\tinput(type=\"text\" class=\"form-control\" name=\"username\") teste@teste.pt\n\ninput is self closing and should not have content.","timestamp":"2015-12-02T15:05:50.707Z"}
+{"level":"error","message":"GET 500 /Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views/api/services/testservice.jade:12\n    10| \t\tform(action=\"/api/oauth/token\" method=\"post\")\n    11| \n  > 12| \t\t\tinput(type=\"text\" class=\"form-control\" name=\"grant_type\") password\n    13| \t\t\tinput(type=\"text\" class=\"form-control\" name=\"client_id\") XX\n    14| \t\t\tinput(type=\"text\" class=\"form-control\" name=\"client_secret\") XX\n    15| \t\t\tinput(type=\"text\" class=\"form-control\" name=\"username\") teste@teste.pt\n\ninput is self closing and should not have content.","timestamp":"2015-12-02T15:05:55.716Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T15:14:37.972Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T15:14:38.003Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T16:05:34.652Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T16:05:34.681Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T16:09:06.405Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T16:09:06.436Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T16:11:33.826Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T16:11:33.855Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T16:13:02.880Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T16:13:02.908Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T16:14:05.700Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T16:14:05.730Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T16:15:21.192Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T16:15:21.221Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T16:16:16.797Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T16:16:16.831Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T16:18:22.470Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T16:18:22.501Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T16:22:27.305Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T16:22:27.333Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T16:24:03.070Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T16:24:03.101Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T16:26:32.907Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T16:26:32.938Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T16:27:03.846Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T16:27:03.877Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T16:29:05.704Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T16:29:05.732Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T16:32:12.719Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T16:32:12.750Z"}
+{"level":"error","message":"POST 500 name is not defined","timestamp":"2015-12-02T16:32:37.401Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T16:33:14.631Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T16:33:14.663Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T16:34:47.554Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T16:34:47.584Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T16:36:13.220Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T16:36:13.248Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T16:38:17.688Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T16:38:17.716Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T16:38:51.433Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T16:38:51.466Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T16:40:49.077Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T16:40:49.108Z"}
+{"name":"ValidationError","errors":{"serviceId":{"properties":{"type":"required","message":"Path `{PATH}` is required.","path":"serviceId"},"message":"Path `serviceId` is required.","name":"ValidatorError","kind":"required","path":"serviceId"}},"level":"error","timestamp":"2015-12-02T16:41:03.994Z"}
+{"name":"ValidationError","errors":{"serviceId":{"properties":{"type":"required","message":"Path `{PATH}` is required.","path":"serviceId"},"message":"Path `serviceId` is required.","name":"ValidatorError","kind":"required","path":"serviceId"}},"level":"error","timestamp":"2015-12-02T16:41:32.464Z"}
+{"name":"ValidationError","errors":{"serviceId":{"properties":{"type":"required","message":"Path `{PATH}` is required.","path":"serviceId"},"message":"Path `serviceId` is required.","name":"ValidatorError","kind":"required","path":"serviceId"}},"level":"error","timestamp":"2015-12-02T16:42:06.555Z"}
+{"name":"ValidationError","errors":{"serviceId":{"properties":{"type":"required","message":"Path `{PATH}` is required.","path":"serviceId"},"message":"Path `serviceId` is required.","name":"ValidatorError","kind":"required","path":"serviceId"}},"level":"error","timestamp":"2015-12-02T16:43:40.952Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T16:45:57.573Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T16:45:57.603Z"}
+{"name":"ValidationError","errors":{"serviceId":{"properties":{"type":"required","message":"Path `{PATH}` is required.","path":"serviceId"},"message":"Path `serviceId` is required.","name":"ValidatorError","kind":"required","path":"serviceId"}},"level":"error","timestamp":"2015-12-02T16:46:16.458Z"}
+{"name":"ValidationError","errors":{"serviceId":{"properties":{"type":"required","message":"Path `{PATH}` is required.","path":"serviceId"},"message":"Path `serviceId` is required.","name":"ValidatorError","kind":"required","path":"serviceId"}},"level":"error","timestamp":"2015-12-02T16:46:16.460Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T16:53:28.397Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T16:53:28.425Z"}
+{"name":"ValidationError","errors":{"serviceId":{"properties":{"type":"required","message":"Path `{PATH}` is required.","path":"serviceId"},"message":"Path `serviceId` is required.","name":"ValidatorError","kind":"required","path":"serviceId"}},"level":"error","timestamp":"2015-12-02T16:53:51.067Z"}
+{"name":"ValidationError","errors":{"serviceId":{"properties":{"type":"required","message":"Path `{PATH}` is required.","path":"serviceId"},"message":"Path `serviceId` is required.","name":"ValidatorError","kind":"required","path":"serviceId"}},"level":"error","timestamp":"2015-12-02T16:53:51.072Z"}
+{"name":"ValidationError","errors":{"serviceId":{"properties":{"type":"required","message":"Path `{PATH}` is required.","path":"serviceId"},"message":"Path `serviceId` is required.","name":"ValidatorError","kind":"required","path":"serviceId"}},"level":"error","timestamp":"2015-12-02T16:55:00.126Z"}
+{"name":"ValidationError","errors":{"serviceId":{"properties":{"type":"required","message":"Path `{PATH}` is required.","path":"serviceId"},"message":"Path `serviceId` is required.","name":"ValidatorError","kind":"required","path":"serviceId"}},"level":"error","timestamp":"2015-12-02T16:55:00.127Z"}
+{"name":"ValidationError","errors":{"serviceId":{"properties":{"type":"required","message":"Path `{PATH}` is required.","path":"serviceId"},"message":"Path `serviceId` is required.","name":"ValidatorError","kind":"required","path":"serviceId"}},"level":"error","timestamp":"2015-12-02T16:57:43.671Z"}
+{"name":"ValidationError","errors":{"serviceId":{"properties":{"type":"required","message":"Path `{PATH}` is required.","path":"serviceId"},"message":"Path `serviceId` is required.","name":"ValidatorError","kind":"required","path":"serviceId"}},"level":"error","timestamp":"2015-12-02T16:57:43.672Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T16:58:41.580Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T16:58:41.617Z"}
+{"name":"ValidationError","errors":{"serviceId":{"properties":{"type":"required","message":"Path `{PATH}` is required.","path":"serviceId"},"message":"Path `serviceId` is required.","name":"ValidatorError","kind":"required","path":"serviceId"}},"level":"error","timestamp":"2015-12-02T16:58:59.735Z"}
+{"name":"ValidationError","errors":{"serviceId":{"properties":{"type":"required","message":"Path `{PATH}` is required.","path":"serviceId"},"message":"Path `serviceId` is required.","name":"ValidatorError","kind":"required","path":"serviceId"}},"level":"error","timestamp":"2015-12-02T16:58:59.736Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T17:00:15.757Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T17:00:15.788Z"}
+{"name":"ValidationError","errors":{"serviceId":{"properties":{"type":"required","message":"Path `{PATH}` is required.","path":"serviceId"},"message":"Path `serviceId` is required.","name":"ValidatorError","kind":"required","path":"serviceId"}},"level":"error","timestamp":"2015-12-02T17:01:01.012Z"}
+{"name":"ValidationError","errors":{"serviceId":{"properties":{"type":"required","message":"Path `{PATH}` is required.","path":"serviceId"},"message":"Path `serviceId` is required.","name":"ValidatorError","kind":"required","path":"serviceId"}},"level":"error","timestamp":"2015-12-02T17:01:01.016Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T17:01:57.632Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T17:01:57.663Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T17:07:24.918Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T17:07:24.949Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T17:07:52.296Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T17:07:52.326Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T17:08:29.451Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T17:08:29.484Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T17:09:13.442Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T17:09:13.469Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T17:09:40.967Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T17:09:40.997Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T17:20:05.039Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T17:20:05.067Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T17:29:15.553Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T17:29:15.580Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-02T17:33:46.342Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-02T17:33:46.372Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-03T10:30:51.372Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-03T10:30:51.404Z"}
+{"level":"error","message":"GET 500 /Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views/api/services/index.jade:18\n    16|         //if service.scopes\n    17|         ol.breadcrumb\n  > 18|         each scope in service.scopes\n    19|           li\n    20|             input(type=\"checkbox\" name=\"scope\" value=scope)\n    21| \n\nCannot read property 'length' of undefined","timestamp":"2015-12-03T11:03:33.078Z"}
+{"level":"error","message":"GET 500 /Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views/api/services/index.jade:31\n    29| \n    30|     each service in services\n  > 31|       if service.scopes.length >0\n    32|         =service.scopes\n    33|       form(action=\"/api/oauth/token\" method=\"post\" id='service#{service.name}')\n    34|         p -> #{service.name}\n\nCannot read property 'length' of undefined","timestamp":"2015-12-03T11:10:28.173Z"}
+{"level":"error","message":"GET 500 /Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views/api/services/index.jade:31\n    29| \n    30|     each service in services\n  > 31|       if (service.scopes.length >0)\n    32|         =service.scopes\n    33|       form(action=\"/api/oauth/token\" method=\"post\" id='service#{service.name}')\n    34|         p -> #{service.name}\n\nCannot read property 'length' of undefined","timestamp":"2015-12-03T11:10:38.701Z"}
+{"level":"error","message":"GET 500 /Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views/api/services/index.jade:31\n    29|     each service in services\n    30|       ul\n  > 31|       each val in service.scopes\n    32|         li= val\n    33|       if service.scopes == []\n    34|         =service.scopes\n\nCannot read property 'length' of undefined","timestamp":"2015-12-03T11:12:30.154Z"}
+{"level":"error","message":"GET 500 /Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views/api/services/index.jade:32\n    30|       =typeof(service.scopes)\n    31|       ul\n  > 32|       each val in service.scopes\n    33|         li= val\n    34|       if service.scopes == []\n    35|         =service.scopes\n\nCannot read property 'length' of undefined","timestamp":"2015-12-03T11:13:29.950Z"}
+{"level":"error","message":"GET 500 /Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views/api/services/index.jade:33\n    31|         =typeof(service.scopes)\n    32|       ul\n  > 33|       each val in service.scopes\n    34|         li= val\n    35|       if service.scopes == []\n    36|         =service.scopes\n\nCannot read property 'length' of undefined","timestamp":"2015-12-03T11:13:46.290Z"}
+{"level":"error","message":"GET 500 /Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views/api/services/index.jade:33\n    31|         =typeof(service.scopes)\n    32|       ul\n  > 33|       each val in service.scopes\n    34|         li= val\n    35|       if service.scopes == []\n    36|         =service.scopes\n\nCannot read property 'length' of undefined","timestamp":"2015-12-03T11:13:47.389Z"}
+{"level":"error","message":"GET 500 /Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views/api/services/index.jade:33\n    31|         =typeof(service.scopes)\n    32|       ul\n  > 33|       each val in service.scopes\n    34|         li= val\n    35|       if service.scopes == []\n    36|         =service.scopes\n\nCannot read property 'length' of undefined","timestamp":"2015-12-03T11:13:47.545Z"}
+{"level":"error","message":"GET 500 /Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views/api/services/index.jade:33\n    31|         //=typeof(service.scopes)\n    32|       ul\n  > 33|       each val in service.scopes\n    34|         li= val\n    35|       if service.scopes == []\n    36|         =service.scopes\n\nCannot read property 'length' of undefined","timestamp":"2015-12-03T11:13:51.564Z"}
+{"level":"error","message":"GET 500 /Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views/api/services/index.jade:33\n    31|         //=typeof(service.scopes)\n    32|       ul\n  > 33|       each val in service.scopes\n    34|         li= val\n    35|       if service.scopes == []\n    36|         =service.scopes\n\nCannot read property 'length' of undefined","timestamp":"2015-12-03T11:13:52.477Z"}
+{"level":"error","message":"GET 500 /Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views/api/services/index.jade:33\n    31|         //=typeof(service.scopes)\n    32|       ul\n  > 33|       each val in service.scopes\n    34|         li= val\n    35|       if service.scopes == []\n    36|         =service.scopes\n\nCannot read property 'length' of undefined","timestamp":"2015-12-03T11:13:52.665Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-03T11:15:42.783Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-03T11:15:42.811Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-03T11:16:28.768Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-03T11:16:28.800Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-03T11:16:49.163Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-03T11:16:49.191Z"}
+{"level":"error","message":"GET 500 /Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views/api/services/index.jade:37\n    35|           each scope in service.scopes\n    36|             li\n  > 37|               input(type=\"checkbox\" name=\"scope\" value=scope) scope\n    38| \n    39|     hr\n    40|     each accessToken in accessTokens\n\ninput is self closing and should not have content.","timestamp":"2015-12-03T11:18:44.499Z"}
+{"level":"error","message":"GET 500 /Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views/api/services/index.jade:37\n    35|           each scope in service.scopes\n    36|             li\n  > 37|               input(type=\"checkbox\" name=\"scope\" value=scope)\n    38|                 #{scope}\n    39| \n    40|     hr\n\ninput is self closing and should not have content.","timestamp":"2015-12-03T11:19:07.097Z"}
+{"level":"error","message":"GET 500 /Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views/api/services/index.jade:37\n    35|           each scope in service.scopes\n    36|             li\n  > 37|               input(type=\"checkbox\" name=\"scope\" value=scope)\n    38|                 | #{scope}\n    39| \n    40|     hr\n\ninput is self closing and should not have content.","timestamp":"2015-12-03T11:19:12.083Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-03T12:20:12.067Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-03T12:20:12.097Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-03T12:40:49.348Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-03T12:40:49.377Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-03T12:41:21.634Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-03T12:41:21.665Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-03T12:43:43.822Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-03T12:43:43.875Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-03T12:44:01.528Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-03T12:44:01.566Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-03T12:45:30.871Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-03T12:45:30.903Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-03T12:46:39.979Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-03T12:46:40.033Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-03T12:47:48.838Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-03T12:47:48.865Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-03T12:49:38.516Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-03T12:49:38.547Z"}
+{"name":"ValidationError","errors":{"serviceSecret":{"properties":{"type":"required","message":"Path `{PATH}` is required.","path":"serviceSecret","value":""},"message":"Path `serviceSecret` is required.","name":"ValidatorError","kind":"required","path":"serviceSecret","value":""},"name":{"properties":{"type":"required","message":"Path `{PATH}` is required.","path":"name","value":""},"message":"Path `name` is required.","name":"ValidatorError","kind":"required","path":"name","value":""}},"level":"error","timestamp":"2015-12-03T16:02:29.383Z"}
+{"code":11000,"index":0,"errmsg":"E11000 duplicate key error index: sport_authentication.services.$serviceId_1 dup key: { : null }","op":{"name":"XXX","serviceSecret":"XXX","_id":"5660786a55ad9b977c0bc6ca","scopes":[],"__v":0}}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-03T17:15:43.486Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-03T17:15:43.517Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-03T17:18:11.186Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-03T17:18:11.214Z"}
+{"code":11000,"index":0,"errmsg":"E11000 duplicate key error index: sport_authentication.services.$serviceId_1 dup key: { : null }","op":{"name":"xxx","serviceSecret":"xxxx","_id":"5660796622b1833590165355","scopes":["asdf","asdasdf"],"__v":0}}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-03T17:19:27.439Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-03T17:19:27.468Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-03T17:19:39.497Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-03T17:19:39.529Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-03T17:27:13.550Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-03T17:27:13.579Z"}
+{"level":"error","message":"GET 500 /Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views/api/services/token.jade:10\n    8| \ta(href=\"/api/services/addtoken\") Add Services\n    9| \n  > 10| \teach accessToken in accessTokens\n    11| \t\tp #{accessToken.serviceId} -> #{accessToken.token}\n\nCannot read property 'length' of undefined","timestamp":"2015-12-03T17:29:58.787Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-03T17:33:54.810Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-03T17:33:54.842Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-03T17:34:01.778Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-03T17:34:01.806Z"}
+{"level":"error","message":"GET 500 /Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views/api/token/index.jade:12\n    10|     a(href=\"/api/services/addservice\") Add Services\n    11| \n  > 12|     each service in services\n    13|       .row\n    14|         form(action=\"/api/oauth/token\" method=\"post\" id=\"service#{service.name}\")\n    15|           .col-md-1\n\nCannot read property 'length' of undefined","timestamp":"2015-12-03T17:34:30.825Z"}
+{"level":"error","message":"GET 500 /Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views/api/token/index.jade:12\n    10|     a(href=\"/api/services/addservice\") Add Services\n    11| \n  > 12|     each service in services\n    13|       .row\n    14|         form(action=\"/api/oauth/token\" method=\"post\" id=\"service#{service.name}\")\n    15|           .col-md-1\n\nCannot read property 'length' of undefined","timestamp":"2015-12-03T17:35:05.867Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T10:36:37.345Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T10:36:37.379Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T10:38:05.129Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T10:38:05.160Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T11:45:55.588Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T11:45:55.616Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T11:51:44.089Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T11:51:44.122Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T12:19:23.983Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T12:19:24.012Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T12:20:28.302Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T12:20:28.331Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T12:21:43.364Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T12:21:43.393Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T12:33:03.059Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T12:33:03.107Z"}
+{"level":"error","message":"GET 500 /Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views/layout-home.jade:34\n    32|                         li.dropdown\n    33|                             a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')\n  > 34|                                 | #{user.local.username}\n    35|                                 span.caret\n    36|                             ul.dropdown-menu\n    37|                                 li\n\nCannot read property 'local' of undefined","timestamp":"2015-12-04T12:33:03.976Z"}
+{"level":"error","message":"GET 500 /Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views/layout-home.jade:34\n    32|                         li.dropdown\n    33|                             a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')\n  > 34|                                 | #{user.local.username}\n    35|                                 span.caret\n    36|                             ul.dropdown-menu\n    37|                                 li\n\nCannot read property 'local' of undefined","timestamp":"2015-12-04T12:33:09.942Z"}
+{"level":"error","message":"GET 500 Failed to lookup view \"api/token/addtoken\" in views directory \"/Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views\"","timestamp":"2015-12-04T14:22:23.171Z"}
+{"level":"error","message":"GET 500 Failed to lookup view \"api/token/index\" in views directory \"/Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views\"","timestamp":"2015-12-04T14:22:26.099Z"}
+{"level":"error","message":"GET 500 Failed to lookup view \"api/token/index\" in views directory \"/Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views\"","timestamp":"2015-12-04T14:24:26.239Z"}
+{"level":"error","message":"GET 500 Failed to lookup view \"api/token/index\" in views directory \"/Users/ricardomendes/GitHub/Nodejs/Projecto_IEETA/Authentication/src/views\"","timestamp":"2015-12-04T14:24:51.872Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T14:25:51.352Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T14:25:51.383Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T14:26:06.088Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T14:26:06.121Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T14:46:10.747Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T14:46:10.775Z"}
+{"level":"error","message":"GET 500 passport is not defined","timestamp":"2015-12-04T14:46:12.900Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T14:46:55.492Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T14:46:55.521Z"}
+{"level":"error","message":"GET 500 passport is not defined","timestamp":"2015-12-04T14:47:00.589Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T14:49:35.543Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T14:49:35.571Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T14:49:40.304Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T14:49:40.333Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T15:01:00.356Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T15:01:00.388Z"}
+{"level":"error","message":"GET 500 Unknown authentication strategy \"facebook\"","timestamp":"2015-12-04T15:01:02.994Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T15:01:14.703Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T15:01:14.734Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T15:27:34.994Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T15:27:35.024Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T15:28:07.668Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T15:28:07.700Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T15:29:26.102Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T15:29:26.134Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T15:39:40.239Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T15:39:40.271Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T15:44:20.237Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T15:44:20.265Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T15:46:42.201Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T15:46:42.231Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T15:47:02.759Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T15:47:02.790Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T15:48:18.675Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T15:48:18.708Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T16:16:00.705Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T16:16:00.733Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T16:23:26.735Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T16:23:26.765Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T16:23:35.538Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T16:23:35.569Z"}
+{"level":"error","message":"POST 500 Failed to serialize user into session","timestamp":"2015-12-04T16:23:42.515Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2015-12-04T17:09:30.679Z"}
+{"level":"info","message":"Connected to DB!","timestamp":"2015-12-04T17:09:30.709Z"}
