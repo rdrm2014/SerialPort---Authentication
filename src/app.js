@@ -33,7 +33,7 @@ module.exports = function (app, passport) {
      */
     app.get('/profile', isLoggedIn, function (req, res) {
         console.log(req.user);
-        res.render('profile', {title: config.get('title'), user: req.user});
+        res.render('api/authentication/profile', {title: config.get('title'), user: req.user});
 
     });
 
@@ -50,7 +50,7 @@ module.exports = function (app, passport) {
      * GET Login
      */
     app.get('/login', function (req, res) {
-        res.render('login', {message: req.flash('loginMessage')});
+        res.render('api/authentication/login', {message: req.flash('loginMessage')});
     });
 
     /**
@@ -66,7 +66,7 @@ module.exports = function (app, passport) {
      * GET Signup
      */
     app.get('/signup', function (req, res) {
-        res.render('signup', {message: req.flash('loginMessage')});
+        res.render('api/authentication/signup', {message: req.flash('loginMessage')});
     });
 
     /**
@@ -126,7 +126,7 @@ module.exports = function (app, passport) {
      * GET Authentication Local
      */
     app.get('/connect/local', function (req, res) {
-        res.render('connect-local');
+        res.render('api/authentication/connect-local');
     });
 
     /**

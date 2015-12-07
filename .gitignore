@@ -9,3 +9,7 @@ generateData.js
 src/auth/oauth2.js
 
 src/log/log.js
+
+src/log/all.log
+
+src/log/all.log

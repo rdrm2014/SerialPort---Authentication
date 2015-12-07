@@ -102,7 +102,7 @@ a:focus {
 }
 
 #header {
-    background: url(../img/header.jpg) no-repeat center top;
+    background: url(../images/header.jpg) no-repeat center top;
     padding-top: 5px;
     background-position: center center;
     min-height: 700px;

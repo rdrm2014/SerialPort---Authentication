@@ -52,7 +52,7 @@ app.use(express.static(src + 'public'));
 /**
  * Routes
  */
-require(src + '/app')(app, passport);
+require(src + 'app')(app, passport);
 
 /**
  * Catch 404 and forward to error handler

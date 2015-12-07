@@ -12,7 +12,7 @@ var AccessToken = new Schema({
     },
     serviceId: {
         type: Schema.Types.ObjectId,
-        ref: 'User',
+        ref: 'Service',
         required: true
     },
     token: {

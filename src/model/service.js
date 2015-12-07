@@ -17,9 +17,9 @@ var Service = new Schema({
     }
 });
 
-/*Service.virtual('serviceId')
+Service.virtual('serviceId')
  .get(function () {
  return this.id;
- });*/
+ });
 
 module.exports = mongoose.model('Service', Service);
