@@ -10,15 +10,6 @@
   "default": {
     "api": {
       "version": "v1"
-    },
-    "user": {
-      "username": "teste",
-      "password": "teste"
-    },
-    "service": {
-      "name": "Server_Service",
-      "serviceId": "service",
-      "serviceSecret": "SecretServer_Service"
     }
   },
   "configAuth": {
