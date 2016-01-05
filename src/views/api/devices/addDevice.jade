@@ -7,15 +7,15 @@ block content
 					li
 						a(href="/home") Home
 					li
-						a(href="/api/services") Services
-					li.active Add Services
-				form(action="/api/services/addservice" method="post")
+						a(href="/api/devices") Devices
+					li.active Add Devices
+				form(action="/api/devices/adddevice" method="post")
 					.form-group
 						label Name
 						input(type="text" class="form-control" name="name")
 					.form-group
-						label serviceSecret
-						input(type="text" class="form-control" name="serviceSecret")
+						label deviceSecret
+						input(type="text" class="form-control" name="deviceSecret")
 					.form-group
 						label Scope
 						.input-group
@@ -35,7 +35,7 @@ block content
 									input#field1.input(autocomplete='off', name='prof1', type='text', placeholder='Type something', data-items='8')
 									button#b1.btn.add-more(type='button') +
 
-					button(type="submit") Add Service
+					button(type="submit") Add Device
 				hr
 	script.
 		function addScope() {

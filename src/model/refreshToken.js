@@ -6,11 +6,13 @@ var Schema = mongoose.Schema;
  */
 var RefreshToken = new Schema({
     userId: {
-        type: String,
+        type: Schema.Types.ObjectId,
+        ref: 'User',
         required: true
     },
-    serviceId: {
-        type: String,
+    deviceId: {
+        type: Schema.Types.ObjectId,
+        ref: 'Device',
         required: true
     },
     token: {

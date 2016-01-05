@@ -3,7 +3,7 @@ var config = require(src + 'config/config');
 
 var passport = require('passport');
 var BasicStrategy = require('passport-http').BasicStrategy;
-var ServicePasswordStrategy = require('passport-oauth2-client-password').Strategy;
+var DevicePasswordStrategy = require('passport-oauth2-client-password').Strategy;
 var BearerStrategy = require('passport-http-bearer').Strategy;
 var LocalStrategy = require('passport-local').Strategy;
 var FacebookStrategy = require('passport-facebook').Strategy;
@@ -11,7 +11,7 @@ var TwitterStrategy = require('passport-twitter').Strategy;
 var GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
 
 var User = require(src + 'model/user');
-var Service = require(src + 'model/service');
+var Device = require(src + 'model/device');
 var AccessToken = require(src + 'model/accessToken');
 var RefreshToken = require(src + 'model/refreshToken');
 
@@ -34,24 +34,24 @@ passport.deserializeUser(function (id, done) {
 });
 
 /**
- * ServicePasswordStrategy
+ * DevicePasswordStrategy
  */
-passport.use(new ServicePasswordStrategy(
-    function (serviceId, serviceSecret, done) {
-        Service.findOne({serviceId: serviceId}, function (err, service) {
+passport.use(new DevicePasswordStrategy(
+    function (deviceId, deviceSecret, done) {
+        Device.findOne({deviceId: deviceId}, function (err, device) {
             if (err) {
                 return done(err);
             }
 
-            if (!service) {
+            if (!device) {
                 return done(null, false);
             }
 
-            if (service.serviceSecret !== serviceSecret) {
+            if (device.deviceSecret !== deviceSecret) {
                 return done(null, false);
             }
 
-            return done(null, service);
+            return done(null, device);
         });
     }));
 
@@ -70,6 +70,7 @@ passport.use(new BearerStrategy(
                 return done(null, false);
             }
 
+            /* TOKEN LIFE
             if (Math.round((Date.now() - token.created) / 1000) > config.get('security:tokenLife')) {
 
                 AccessToken.remove({token: accessToken}, function (err) {
@@ -79,7 +80,7 @@ passport.use(new BearerStrategy(
                 });
 
                 return done(null, false, {message: 'Token expired'});
-            }
+            }*/
 
             User.findById(token.userId, function (err, user) {
 
@@ -118,7 +119,6 @@ passport.use('local-login', new LocalStrategy({
                     return done(null, user);
             });
         });
-
     }));
 
 /**

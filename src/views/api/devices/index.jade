@@ -7,22 +7,22 @@ block content
         ol.breadcrumb
           li
             a(href="/home") Home
-          li.active Services
-        a(href="/api/services/addservice")
+          li.active Devices
+        a(href="/api/devices/adddevice")
           button.btn.btn-default.btn-lg
-            | Add Services
+            | Add Devices
     .row
       .col-md-12
-        each service in services
+        each device in devices
           .row
-            form(action="/api/oauth/token" method="post" id="service#{service.name}")
+            form(action="/api/oauth/token" method="post" id="device#{device.name}")
               .col-md-2
-                p -> #{service.name}
+                p -> #{device.name}
               .col-md-9
-                if service.scopes
-                  input(type="hidden" name="serviceId" value=service._id)
+                if device.scopes
+                  input(type="hidden" name="deviceId" value=device._id)
                   .btn-group(data-toggle='buttons')
-                    each scope in service.scopes
+                    each scope in device.scopes
                       label.btn.btn-primary.disabled
                         input(type='checkbox', autocomplete='off', name='scope' value=scope)
                         | #{scope}

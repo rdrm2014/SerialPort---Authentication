@@ -3,7 +3,7 @@
  */
 var src = process.cwd() + '/src/';
 var config = require(src + 'config/config');
-var debug = require('debug')('restapi');
+//var debug = require('debug')('restapi');
 
 var log = require(src + 'log/log')(module);
 var port = process.env.PORT || config.get('port') || 3000;
@@ -92,7 +92,7 @@ app.use(function (err, req, res, next) {
 });
 
 var server = app.listen(port, function () {
-    debug('Express server listening on port ' + port);
+    //debug('Express server listening on port ' + port);
     log.info('Express server listening on port ' + port);
 });
 

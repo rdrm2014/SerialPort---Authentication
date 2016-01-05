@@ -10,9 +10,9 @@ var AccessToken = new Schema({
         ref: 'User',
         required: true
     },
-    serviceId: {
+    deviceId: {
         type: Schema.Types.ObjectId,
-        ref: 'Service',
+        ref: 'Device',
         required: true
     },
     token: {

@@ -13,5 +13,6 @@ block content
             | Add Token
     .row
       .col-md-12
-        each accessToken in accessTokens
-          p #{accessToken.serviceId.name} -> #{accessToken.token}
+        if (accessTokens)
+          each accessToken in accessTokens
+            p #{accessToken.deviceId.name} -> #{accessToken.token}

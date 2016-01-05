@@ -1,4 +1,4 @@
-var express = require('express');
+/*var express = require('express');
 var passport = require('passport');
 var router = express.Router();
 
@@ -8,7 +8,7 @@ var User = require(src + 'model/user');
 
 /**
  * GET /api/users/info
- */
+ *
 router.get('/info', passport.authenticate('bearer', {session: false}),
     function (req, res) {
         var name;
@@ -31,4 +31,4 @@ router.get('/info', passport.authenticate('bearer', {session: false}),
     }
 );
 
-module.exports = router;
+module.exports = router;*/

@@ -10,18 +10,18 @@ block content
 					li
 						a(href="/api/tokens") Token
 					li.active addtoken
-				each service in services
+				each device in devices
 					.row
 						form(action="/api/tokens/addtoken" method="post")
 							.col-md-1
 								input(type="submit" value="+")
 							.col-md-2
-								p -> #{service.name}
+								p -> #{device.name}
 							.col-md-9
-								if service.scopes
-									input(type="hidden" name="serviceId" value=service._id)
+								if device.scopes
+									input(type="hidden" name="deviceId" value=device._id)
 									.btn-group(data-toggle='buttons')
-										each scope in service.scopes
+										each scope in device.scopes
 											label.btn.btn-primary
 												input(type='checkbox', autocomplete='off', name='scope' value=scope)
 												| #{scope}

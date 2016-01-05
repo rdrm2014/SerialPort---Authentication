@@ -2,24 +2,24 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 /**
- * Service
+ * Device
  */
-var Service = new Schema({
+var Device = new Schema({
     name: {
         type: String,
         unique: true,
         required: true
     },
     scopes: [String],
-    serviceSecret: {
+    deviceSecret: {
         type: String,
         required: true
     }
 });
 
-Service.virtual('serviceId')
+Device.virtual('deviceId')
  .get(function () {
  return this.id;
  });
 
-module.exports = mongoose.model('Service', Service);
+module.exports = mongoose.model('Device', Device);

@@ -3,14 +3,14 @@ require(src + 'auth/auth');
 var log = require(src + 'log/log')(module);
 
 var users = require(src + 'routes/users');
-var services = require(src + 'routes/services');
+var devices = require(src + 'routes/devices');
 var oauth = require(src + 'routes/oauth');
 var config = require(src + 'config/config');
 
 module.exports = function (app, passport) {
 
-    app.use('/api/users', users);
-    app.use('/api/services', services);
+    //app.use('/api/users', users);
+    app.use('/api/devices', devices);
     app.use('/api/tokens', oauth);
 
 

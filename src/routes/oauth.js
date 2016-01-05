@@ -6,7 +6,7 @@ var crypto = require('crypto');
 var src = process.cwd() + '/src/';
 var log = require(src + 'log/log')(module);
 var User = require(src + 'model/user');
-var Service = require(src + 'model/service');
+var Device = require(src + 'model/device');
 var AccessToken = require(src + 'model/accessToken');
 var RefreshToken = require(src + 'model/refreshToken');
 
@@ -32,21 +32,21 @@ router.get('/', isLoggedIn, function (req, res) {
         }
     })
         .populate('userId')
-        .populate('serviceId');
+        .populate('deviceId');
 });
 
 /**
  * GET /api/tokens/addtoken
  */
 router.get('/addtoken', isLoggedIn, function (req, res) {
-        Service.find(function (err, services) {
+        Device.find(function (err, devices) {
             if (!err) {
                 console.log("userId: " + req.user.userId);
                 AccessToken.find({"userId": req.user.userId}, function (err, accessTokens) {
                     return res.render('api/tokens/addToken', {
                         title: config.get('title'),
                         user: req.user,
-                        services: services,
+                        devices: devices,
                         accessTokens: accessTokens
                     });
                 });
@@ -66,7 +66,7 @@ router.get('/addtoken', isLoggedIn, function (req, res) {
  */
 router.post('/addtoken', isLoggedIn, function (req, res) {
         console.log(req.body);
-        var serviceId = req.body['serviceId'];
+        var deviceId = req.body['deviceId'];
         var scopes = req.body['scope'];
 
         console.log(req.user);
@@ -74,13 +74,13 @@ router.post('/addtoken', isLoggedIn, function (req, res) {
             if (err) {
                 return done(err);
             }
-            Service.findOne({'_id': serviceId}, function (err, service) {
+            Device.findOne({'_id': deviceId}, function (err, device) {
                 if (err) {
                     return done(err);
                 }
                 var model = {
                     userId: user.userId,
-                    serviceId: service._id,
+                    deviceId: device._id,
                     scopes: scopes
                 };
                 generateTokens(model);
