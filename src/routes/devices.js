@@ -69,7 +69,7 @@ router.post('/adddevice', isLoggedIn, function (req, res) {
 /**
  * GET /api/devices/info
  */
-router.get('/info', passport.authenticate('bearer', {session: false}),
+router.post('/info', passport.authenticate('bearer', {session: false}),
     function (req, res) {
         var name;
         if (req.user.local.username)
@@ -86,7 +86,7 @@ router.get('/info', passport.authenticate('bearer', {session: false}),
         res.json({
             user_id: req.user.userId,
             name: name,
-            scopes: req.authInfo.scopes
+            channels: req.authInfo.scopes
         });
     }
 );

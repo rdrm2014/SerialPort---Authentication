@@ -183,7 +183,7 @@ passport.use(new FacebookStrategy({
                     if (user) {
                         if (!user.facebook.token) {
                             user.facebook.token = token;
-                            user.facebook.name = profile.displayName;
+                            user.facebook.username = profile.displayName;
 
                             user.save(function (err) {
                                 if (err)
@@ -196,7 +196,7 @@ passport.use(new FacebookStrategy({
                         var newUser = new User();
                         newUser.facebook.id = profile.id;
                         newUser.facebook.token = token;
-                        newUser.facebook.name = profile.displayName;
+                        newUser.facebook.username = profile.displayName;
 
                         newUser.save(function (err) {
                             if (err)
@@ -210,7 +210,7 @@ passport.use(new FacebookStrategy({
                 var user = req.user;
                 user.facebook.id = profile.id;
                 user.facebook.token = token;
-                user.facebook.name = profile.displayName;
+                user.facebook.username = profile.displayName;
 
                 user.save(function (err) {
                     if (err)
@@ -298,7 +298,7 @@ passport.use(new GoogleStrategy({
                         if (user) {
                             if (!user.google.token) {
                                 user.google.token = token;
-                                user.google.name = profile.displayName;
+                                user.google.username = profile.displayName;
                                 user.google.email = profile.emails[0].value;
 
                                 user.save(function (err) {
@@ -312,7 +312,7 @@ passport.use(new GoogleStrategy({
                             var newUser = new User();
                             newUser.google.id = profile.id;
                             newUser.google.token = token;
-                            newUser.google.name = profile.displayName;
+                            newUser.google.username = profile.displayName;
                             newUser.google.email = profile.emails[0].value;
 
                             newUser.save(function (err) {
@@ -326,7 +326,7 @@ passport.use(new GoogleStrategy({
                     var user = req.user;
                     user.google.id = profile.id;
                     user.google.token = token;
-                    user.google.name = profile.displayName;
+                    user.google.username = profile.displayName;
                     user.google.email = profile.emails[0].value;
                     user.save(function (err) {
                         if (err)

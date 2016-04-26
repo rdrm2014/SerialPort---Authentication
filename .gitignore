@@ -1,15 +1,8 @@
 node_modules/
 
-testeLogin1.js
-
-testeLogin2.js
-
 generateData.js
 
 src/auth/oauth2.js
+src/log/*
 
-src/log/log.js
-
-src/log/all.log
-
-src/log/all.log
+Test_Authentication

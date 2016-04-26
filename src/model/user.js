@@ -14,7 +14,7 @@ var User = new Schema({
         id: String,
         token: String,
         email: String,
-        name: String
+        username: String
     },
     twitter: {
         id: String,
@@ -26,7 +26,7 @@ var User = new Schema({
         id: String,
         token: String,
         email: String,
-        name: String
+        username: String
     }
 });
 
