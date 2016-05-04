@@ -13,6 +13,10 @@
     }
   },
   "configAuth": {
+    "localAuth": {
+      "callbackSuccess": "/home",
+      "callbackError": "/login"
+    },
     "facebookAuth": {
       "clientID": "544032339084378",
       "clientSecret": "bd505fd022875a926ab89b4b0f2f5c21",

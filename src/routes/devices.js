@@ -49,6 +49,7 @@ router.post('/adddevice', isLoggedIn, function (req, res) {
         var scopes = req.body['scopes'];
 
         var device = new Device({
+            userId: req.user.userId,
             name: name,
             deviceSecret: deviceSecret,
             scopes: scopes

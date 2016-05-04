@@ -62,6 +62,32 @@ module.exports = function (app, passport) {
         failureFlash: true
     }));
 
+    //////
+
+    /**
+     * POST loginExternal
+     */
+    app.post('/loginExternal', function (req, res, next) {
+        passport.authenticate('local-login', function (err, user, info) {
+            console.log(req.query);
+            if (err) {
+                return next(err);
+            }
+            if (!user) {
+                return res.redirect((req.query.callbackError != undefined) ? req.query.callbackError : config.get('configAuth:localAuth:callbackError'));
+            }
+            req.logIn(user, function (err) {
+                if (err) {
+                    return next(err);
+                }
+
+                return res.redirect((req.query.callbackSuccess != undefined) ? req.query.callbackSuccess : config.get('configAuth:localAuth:callbackSuccess'));
+            });
+        })(req, res, next);
+    });
+
+    //////
+
     /**
      * GET Signup
      */
@@ -91,6 +117,7 @@ module.exports = function (app, passport) {
             successRedirect: '/home',
             failureRedirect: '/'
         }));
+
 
     /**
      * GET Authentication Twitter
