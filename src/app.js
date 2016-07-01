@@ -62,8 +62,6 @@ module.exports = function (app, passport) {
         failureFlash: true
     }));
 
-    //////
-
     /**
      * POST loginExternal
      */
@@ -85,8 +83,6 @@ module.exports = function (app, passport) {
             });
         })(req, res, next);
     });
-
-    //////
 
     /**
      * GET Signup

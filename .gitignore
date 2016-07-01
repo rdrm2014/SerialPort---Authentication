@@ -3,6 +3,8 @@ node_modules/
 generateData.js
 
 src/auth/oauth2.js
-src/log/*
+src/log/all.log
 
 Test_Authentication
+
+.idea
